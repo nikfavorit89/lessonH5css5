@@ -20,3 +20,15 @@
     float: right;
     margin: 50px 50px;
 }
+h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: 200;
+    
+}
+.start_links {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
