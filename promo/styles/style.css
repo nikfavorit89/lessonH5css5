@@ -1,8 +1,8 @@
-.body {
+body {
     width: 1280px;
     margin: 0 auto;
 }
-
+/* хеадер*/
 .header {
     width: 1280px;
     height: 320px;
@@ -40,7 +40,7 @@ h1 {
     display: block;
     margin-top: 10px;
 }
-
+/*Мэйн*/
 .main {
     display: block;
     width: 1280px;
@@ -53,9 +53,9 @@ h1 {
     width: 100%;
     clear: both;
 }
-
+/*Описание товара и видео*/
 .desc {
-    width: 100%;
+    width: 1280px;
     height: ;
     margin: 0 auto;
     padding: 50px;
@@ -74,22 +74,22 @@ h1 {
     display: block;
     float: right;
     background-color: #445162;
-    margin: 0 50px 0 0;
+    margin: 0 100px 0 0;
     clear: both;
 }
 
 .desc-span {
-    font-size: 30px;
+    font-size: 32px;
     font-family: "Areal";
     color: #445162;
-    margin-top: 50px;
-    margin-left: 50px;
+    margin: 50px 0 24px 0;
+    
 }
 
 .desc p {
     display: block;
     width: 660px;
-    margin-left: 50px;
+
 }
 
 .dignity {
@@ -99,7 +99,7 @@ h1 {
     padding: 50px;
     box-sizing: border-box;
 }
-
+/*Дигнити*/
 .dignity:after {
     content: "";
     display: block;
@@ -160,7 +160,29 @@ ul.ul_1:nth-child(2) > li:nth-child(3)
 ul.ul_2:nth-child(3) > li:nth-child(3) {
     margin: 0px;
 }
-
+/*Скриншоты */
+.screenshots {
+    width: 1180px;
+    height: 388px;
+    display: block;
+    padding: 50px;
+}
+.screenshots:before {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.screen_desc {
+    display: block;
+    width: 575px;
+    height: 150px;
+    border: 1px solid #000;
+    float: left;
+}
+/*Отзывы*/
+/*Покупка*/
+/*Футер*/
 .footer {
     width: 1280px;
     height: 500px;
