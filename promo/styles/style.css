@@ -2,7 +2,10 @@ body {
     width: 1280px;
     margin: 0 auto;
 }
+
+
 /* хеадер*/
+
 .header {
     width: 1280px;
     height: 320px;
@@ -40,7 +43,10 @@ h1 {
     display: block;
     margin-top: 10px;
 }
+
+
 /*Мэйн*/
+
 .main {
     display: block;
     width: 1280px;
@@ -53,7 +59,10 @@ h1 {
     width: 100%;
     clear: both;
 }
+
+
 /*Описание товара и видео*/
+
 .desc {
     width: 1280px;
     height: ;
@@ -83,13 +92,11 @@ h1 {
     font-family: "Areal";
     color: #445162;
     margin: 50px 0 24px 0;
-    
 }
 
 .desc p {
     display: block;
     width: 660px;
-
 }
 
 .dignity {
@@ -99,7 +106,10 @@ h1 {
     padding: 50px;
     box-sizing: border-box;
 }
+
+
 /*Дигнити*/
+
 .dignity:after {
     content: "";
     display: block;
@@ -138,6 +148,7 @@ h1 {
     margin: 0 0 40px 0;
     position: relative;
 }
+
 .dignity-li:before {
     content: "+";
     display: block;
@@ -153,36 +164,85 @@ h1 {
     left: -46px;
 }
 
-ul.ul_1:nth-child(2) > li:nth-child(3)
-{
+ul.ul_1:nth-child(2) > li:nth-child(3) {
     margin: 0px;
 }
+
 ul.ul_2:nth-child(3) > li:nth-child(3) {
     margin: 0px;
 }
+
+
 /*Скриншоты */
+/*span SCREENSHOOTS*/
 .screenshots {
     width: 1180px;
     height: 388px;
     display: block;
     padding: 50px;
+    
 }
+
 .screenshots:before {
     content: "";
     display: block;
     width: 100%;
     clear: both;
+    
+}
+
+.span_scrinshots {
+    display: block;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Areal";
+    color: #445161;
 }
 .screen_desc {
     display: block;
     width: 575px;
     height: 150px;
-    border: 1px solid #000;
     float: left;
+    margin:0 0 30px 0;
 }
+
+body > div.main > div:nth-child(2) > section.screenshots > articl:nth-child(4),
+body > div.main > div:nth-child(2) > section.screenshots > articl:nth-child(6){
+    margin-left: 15px;
+}
+.screen_desc img {
+    display: block;
+    background-color: #445161;
+    width: 200px;
+    height: 150px;
+    float:left;
+    margin-right: 15px;
+}
+/*span into article*/
+.scr_desc {
+    font-family: "Areal";
+    font-size: 25px;
+    color: #445161;
+    
+}
+.scr_desc {
+    display: block;
+     
+    padding: ;
+}
+.scr_p {
+    
+}
+
+
 /*Отзывы*/
+
+
 /*Покупка*/
+
+
 /*Футер*/
+
 .footer {
     width: 1280px;
     height: 500px;
