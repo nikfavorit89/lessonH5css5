@@ -201,7 +201,7 @@ ul.ul_2:nth-child(3) > li:nth-child(3) {
 .screen_desc {
     display: block;
     width: 575px;
-    height: 150px;
+   /* height: 150px;*/
     float: left;
     margin:0 0 30px 0;
 }
