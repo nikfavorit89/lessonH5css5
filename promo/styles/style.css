@@ -441,11 +441,35 @@ form button {
     height: 40px;
     border-radius: 5px;
     background-color: white;
+    margin-left: 190px;
 }
 
 .cont_social {
     display: block;
     float: right;
     width: 37%;
+    height: 400px;
+    border: 1px solid #000;
+}
+.footer_social_cont img {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px; 
+   
+}
+.footer_social_cont{
+    display: block;
+    font-size: 16px;
+    font-family: "Arial";
+    color: white;
+    margin: 0 0 15px 0;
+}
+.social_link {
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
     border: 1px solid #000;
 }
